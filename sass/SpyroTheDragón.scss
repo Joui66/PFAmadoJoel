@@ -43,11 +43,11 @@
             text-align: center;
         }
     }
-    .posiciongif {
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        justify-content: space-around;
-    }
-    
 }
+    .posiciongif {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+

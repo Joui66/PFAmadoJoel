@@ -44,9 +44,10 @@
   align-items: center;
   text-align: center;
 }
-.Spyro .posiciongif {
+
+.posiciongif {
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  justify-content: space-around;
+  justify-content: space-between;
 }/*# sourceMappingURL=SpyroTheDragón.css.map */
