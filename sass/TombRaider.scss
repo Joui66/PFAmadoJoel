@@ -30,6 +30,7 @@
             display: flex;
             align-items: center;
             text-align: inherit;
+            flex-direction: column;
     }
 }
 .direccion {
@@ -42,32 +43,19 @@
             color: white;
             display: flex;
             flex-direction: column;
+            width: 94vw;
+            height: auto;
 }
-.tomb1 {
+.tombtitulo {
             margin: 2rem;
             color: white;
             background-color: #e7f8b211;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            text-align: inherit;
+
 }
-.tomb2 {
-            margin: 2rem;
-            color: white;
-            background-color: #e7f8b211;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: inherit;
-}
-.tomb3 {
-            margin: 2rem;
-            color: white;
-            background-color: #e7f8b211;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: inherit;
+.titulostomb {
+        display: flex;
+        justify-content: center;
 }
 }
