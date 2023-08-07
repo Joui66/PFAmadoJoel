@@ -72,6 +72,7 @@ body {
   justify-content: left;
   grid-area: digiizquierda1;
   text-align: left;
+  flex-direction: column;
 }
 
 .digiderecha1 {
@@ -82,6 +83,7 @@ body {
   align-items: center;
   justify-content: center;
   grid-area: digiderecha1;
+  flex-direction: column-reverse;
 }
 
 .digiizquierda2 {
@@ -93,6 +95,7 @@ body {
   justify-content: center;
   grid-area: digiizquierda2;
   text-align: left;
+  flex-direction: column;
 }
 
 .digiderecha2 {
@@ -103,6 +106,7 @@ body {
   align-items: center;
   justify-content: center;
   grid-area: digiderecha2;
+  flex-direction: column-reverse;
 }
 
 .fotos {
