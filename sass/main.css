@@ -1,0 +1,328 @@
+.img {
+  background-image: url(../img/1124772.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.index {
+  color: red;
+  background-color: rgba(238, 130, 238, 0.61);
+  text-align: center;
+}
+
+.parrafo {
+  color: rgba(65, 19, 19, 0.925);
+  background-color: rgba(150, 192, 183, 0.575);
+  text-align: center;
+}
+
+.centrar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fotosindex {
+  width: 250px;
+  height: 250px;
+  gap: end;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.digimon {
+  background-image: url(../img/Fondo\ Digimon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.titulo {
+  color: #eff6e0;
+  background-color: rgba(21, 30, 63, 0.45);
+  text-align: center;
+}
+
+.paginadigimon {
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: minmax(200px, auto);
+  grid-template-rows: minmax(200px, auto);
+  justify-items: right;
+  grid-template-areas: "digiizquierda1" "digiizquieda1" "digiderecha1" "digiderecha1" "digiizquierda2" "digiizquierda2" "digiderecha2" "digiderecha2";
+}
+
+.digiizquierda1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(21, 30, 63, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  grid-area: digiizquierda1;
+  text-align: left;
+}
+
+.digiderecha1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(21, 30, 63, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: digiderecha1;
+}
+
+.digiizquierda2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(21, 30, 63, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: digiizquierda2;
+  text-align: left;
+}
+
+.digiderecha2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(21, 30, 63, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: digiderecha2;
+}
+
+.fotos {
+  width: 250px;
+  height: 250px;
+}
+
+.registro {
+  background: black;
+  background-image: url(../img/fondops.jpg);
+}
+
+.Crash {
+  background-image: url(../img/1366_2000.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.titulocrash {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  text-align: center;
+}
+
+.paginacrash {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.foto1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: flex;
+  grid-column: 1/4;
+  grid-row: 1/1;
+  align-items: center;
+  text-align: center;
+}
+
+.foto2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  grid-column: 1/2;
+  grid-row: 2/4;
+  align-items: center;
+  text-align: center;
+}
+
+.foto3 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/2;
+  grid-row: 2/4;
+  align-items: center;
+  text-align: center;
+}
+
+.foto4 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-direction: column;
+  grid-column: 3/4;
+  grid-row: 2/4;
+  align-items: center;
+  text-align: center;
+}
+
+.fotos {
+  width: 250px;
+  height: 250px;
+}
+
+.slide {
+  margin-top: 10px;
+}
+.slide img {
+  height: 65vh;
+}
+
+.Spyro {
+  background-image: url(../img/spyro-reignited-trilogy-201845174836_5.jpg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+.Spyro .titulospyro {
+  color: #292E1E;
+  background-color: rgba(137, 43, 226, 0.185);
+  text-align: center;
+}
+.Spyro .imagenesspyro {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+.Spyro .imagenesspyro .descripcion1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(238, 130, 238, 0.295);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Spyro .imagenesspyro .descripcion2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(238, 130, 238, 0.295);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Spyro .imagenesspyro .descripcion3 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(238, 130, 238, 0.295);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Spyro .posiciongif {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.TomRaider {
+  background-image: url(../img/fondotr.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.portada {
+  width: 100%;
+  height: 500px;
+}
+
+.textos {
+  color: white;
+  background-color: rgba(231, 248, 178, 0.2196078431);
+  text-align: center;
+}
+
+.slide {
+  margin-top: 10px;
+}
+
+.slide img {
+  height: 55vh;
+}
+
+.imagenes {
+  padding: 30px;
+  display: grid;
+  gap: 1rem;
+}
+.imagenes .imagenestomb {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  align-items: center;
+  text-align: inherit;
+}
+
+.direccion {
+  display: grid;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.direccion .tomb0 {
+  margin: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.direccion .tomb1 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}
+.direccion .tomb2 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}
+.direccion .tomb3 {
+  margin: 2rem;
+  color: white;
+  background-color: rgba(231, 248, 178, 0.0666666667);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: inherit;
+}/*# sourceMappingURL=main.css.map */

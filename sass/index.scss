@@ -1,0 +1,28 @@
+.img {
+    background-image: url(../img/1124772.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.index {
+    color: red;
+    background-color: rgba(238, 130, 238, 0.61);
+    text-align: center;
+}
+.parrafo {
+    color: rgba(65, 19, 19, 0.925);
+    background-color: rgba(150, 192, 183, 0.575);
+    text-align: center;
+}
+.centrar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fotosindex {
+    width: 250px;
+    height: 250px;
+    gap: end;
+}
