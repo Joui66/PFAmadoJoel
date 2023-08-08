@@ -11,8 +11,12 @@
 }
 .Spyro .imagenesspyro {
   display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   gap: 1rem;
+}
+.Spyro .imagenesspyro .video {
+  width: 100%;
+  height: auto;
 }
 .Spyro .imagenesspyro .descripcion1 {
   margin: 2rem;

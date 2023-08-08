@@ -10,8 +10,12 @@
     }
     .imagenesspyro {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: 1fr;
         gap: 1rem;
+        .video {
+            width: 100%;
+            height: auto;
+        }
         .descripcion1 {
             margin: 2rem;
             color: white;
@@ -44,10 +48,12 @@
         }
     }
 }
-    .posiciongif {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-    }
 
+.posiciongif {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
